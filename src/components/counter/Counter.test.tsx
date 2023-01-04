@@ -17,7 +17,7 @@ describe('Counter', () => {
     expect(countElement).toHaveTextContent('0')
   })
 
-  test('renders a count of 1 after  the increment button click', async () => {
+  test('renders a count of 1 after the increment button click', async () => {
     user.setup()
     render(<Counter />)
     const incrementButton = screen.getByRole('button', { name: 'Increment' })
