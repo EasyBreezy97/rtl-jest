@@ -1,5 +1,5 @@
 import { render, screen, logRoles } from '@testing-library/react'
-import { Skills } from './skills'
+import { Skills } from './Skills'
 
 describe('Skills', () => {
   const skills = ['HTML', 'CSS', 'JS']
